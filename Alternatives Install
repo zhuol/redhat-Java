@@ -1,0 +1,6 @@
+alternatives --install /usr/bin/java java /usr/java/jdk1.6.0_11/bin/java 120 \
+--slave /usr/bin/keytool keytool /usr/java/jdk1.6.0_11/bin/keytool \
+--slave /usr/bin/rmiregistry rmiregistry /usr/java/jdk1.6.0_11/bin/rmiregistry
+alternatives --install /usr/bin/javac javac /usr/java/jdk1.6.0_11/bin/javac 120 \
+--slave /usr/bin/jar  jar  /usr/java/jdk1.6.0_11/bin/jar \
+--slave /usr/bin/rmic rmic /usr/java/jdk1.6.0_11/bin/rmic
